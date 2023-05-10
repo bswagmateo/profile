@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;800;900&display=swap');
+
+/* main style */
+
+body {
+  background-color: #f7f8f8;
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  line-height: 40px;
+  color: #212A3E;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #274b63;
+}
+
+p {
+  font-size: 17px;
+  color: #394867;
+  margin-bottom: 30px;
+}
+
+a {
+  color: #9BA4B5;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+a:hover {
+  color: #585e68;
+}
+
+/* class style */
+
+.container {
+  width: 750px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 20px;
+  text-align: center;
+}
+
+.card-2 {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 20px;
+  text-align: center;
+}
+
+.text-center {
+text-align: center!important
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.link-button {
+  font-size: 18px;
+  color: white;
+  background-color: #537188;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.link-button:hover {
+  background-color: #233542;
+  color: white;
+}
+
+/* media queries */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
